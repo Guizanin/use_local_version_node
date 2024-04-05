@@ -5,12 +5,14 @@ create in your project's root a file
 .nvmrc
 ```
 
-In it, paste the version to be used```
+In it, paste the version to be used
+```
 v16.14.2
 ```
 
 ok, configuration created, go automatizated the change of glabal version for local version!
 Your should use ZSH bash, in the .zshrc past the code
+
 ```
 autoload -U add-zsh-hook
 load-nvmrc() {
