@@ -1,16 +1,16 @@
 # use_local_version_node
 
-create in your root's project a file 
+create in your project's root a file 
 ```
 .nvmrc
 ```
-into this, past the version utilyzed as for example
-```
+
+In it, paste the version to be used```
 v16.14.2
 ```
 
 ok, configuration created, go automatizated the change of glabal version for local version!
-Your should use ZSH bash, in .zshrc past the code
+Your should use ZSH bash, in the .zshrc past the code
 ```
 autoload -U add-zsh-hook
 load-nvmrc() {
@@ -34,4 +34,4 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 ```
 
-close Vscode and open again and in terminal show nvm altered version!!!
+close Vscode and open it again and in the terminal it should show the changed version of nvm!!!
