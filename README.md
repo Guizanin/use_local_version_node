@@ -5,7 +5,7 @@ create in your project's root a file
 .nvmrc
 ```
 
-In it, paste the version to be used
+In it, paste the version to be used, I will use version 16
 ```
 v16.14.2
 ```
